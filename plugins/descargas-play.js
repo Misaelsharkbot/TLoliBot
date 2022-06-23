@@ -14,8 +14,16 @@ conn.sendHydrated(m.chat, `
 👀 *𝚅𝙸𝚂𝚃𝙰𝚂:* ${viewH}
 `.trim(), author, thumbnail, `${url}`, '𝚄𝚁𝙻', null, null, [
 ['𝐀𝐔𝐃𝐈𝐎', `${usedPrefix}yta ${url} yes`],
-['𝐕𝐈𝐃𝐄𝐎', `${usedPrefix}ytv ${url} yes`]
+['𝐕𝐈𝐃𝐄𝐎', `${usedPrefix}ytv ${url} yes`], 
+['𝐌𝐀𝐒 𝐑𝐄𝐒𝐔𝐋𝐓𝐀𝐃𝐎𝐒', `${usedPrefix}playlist ${text}`]
 ], m)
+ let info = `*◉— 𝐏𝐋𝐀𝐘 𝐃𝐎𝐂𝐔𝐌𝐄𝐍𝐓 —◉*`.trim()  
+await conn.sendHydrated(m.chat, info, wm, thumbnail, 'https://www.youtube.com', '𝕐𝕆𝕌𝕋𝕌𝔹𝔼', null, null, [
+['𝐀𝐔𝐃𝐈𝐎', `${usedPrefix}yta.2 ${url} yes`],
+['𝐕𝐈𝐃𝐄𝐎', `.ytv.2 ${url} yes`],
+['𝐁𝐔𝐒𝐂𝐀𝐑', `.ytsearch ${url} yes`]
+], m,)
+
 }catch(e){
 m.reply('*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾*')
 console.log(e)
