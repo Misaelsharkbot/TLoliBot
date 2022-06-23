@@ -113,6 +113,8 @@ let menu = `
 ┃🚀➺ _${usedPrefix}play | play2 *texto o link*_
 ┃🚀➺ _${usedPrefix}play.1 *texto o link*_
 ┃🚀➺ _${usedPrefix}play.2 *texto o link*_ 
+┃🚀➺ _${usedPrefix}playlist *<texto>*_
+┃🚀➺ _${usedPrefix}playlist2 *<texto>*_
 ┃🚀➺ _${usedPrefix}ytmp3 | yta *link*_
 ┃🚀➺ _${usedPrefix}ytmp4 | ytv *link*_
 ┃🚀➺ _${usedPrefix}facebook | fb *link*_
@@ -124,8 +126,9 @@ let menu = `
 ┃🚀➺ _${usedPrefix}vertiktok | tiktokstalk *usuario(a)*_
 ┃🚀➺ _${usedPrefix}mediafire | dlmediafire *link*_
 ┃🚀➺ _${usedPrefix}clonarepo | gitclone *link*_
+┃🚀➺ _${usedPrefix}gdrive *link*_
 ╰━━━━━━━━━━━━━━━━━━━⬣`.trim()
-conn.sendHydrated(m.chat, menu, wm, pp, 'https://github.com/elrebelde21/The-LoliBot-MD', 'The Lolibot-𝙈𝘿', null, null, [
+conn.sendHydrated(m.chat, menu, wm, pp, 'https://github.com/elrebelde21/The-LoliBot-MD', '𝚃𝚑𝚎 𝚕𝚘𝚕𝚒𝚋𝚘𝚝-𝙼𝙳', null, null, [
 ['𝙈𝙚𝙣𝙪́ 𝙘𝙤𝙢𝙥𝙡𝙚𝙩𝙤 💫', '.allmenu'],
 ['𝙈𝙚𝙣𝙪 𝙙𝙚𝙨𝙥𝙡𝙚𝙜𝙖𝙗𝙡𝙚 🌟', '/menulista'],
 ['𝙈𝙚𝙣𝙪 𝙋𝙧𝙞𝙣𝙘𝙞𝙥𝙖𝙡 ⚡', '#menu']
