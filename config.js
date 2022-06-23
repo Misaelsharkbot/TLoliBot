@@ -131,7 +131,7 @@ global.exito = eg
 
 //⊱ ━━━━━.⋅ Información | Information ⋅.━━━━ ⊰
 
-global.wm = 'THE LOLIBOT-𝙈𝘿'
+global.wm = '𝐓𝐇𝐄 𝐋𝐎𝐋𝐈𝐁𝐎𝐓 - 𝐌𝐃'
 global.igfg = 'The Lolibot-MD'
 global.wait = '*⌛ _Cargando..._ ▬▬▬▭*'
 
