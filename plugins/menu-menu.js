@@ -73,7 +73,7 @@ text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length
     
 let imagen1 = fs.readFileSync('./Menu2.jpg')
 let imagen2 = fs.readFileSync('./src/nuevobot.jpg') 
-let imagen3 = fs.readFileSync('./src/porhub.png')
+let imagen3 = fs.readFileSync('./src/grupos.jpg')
 let texto1 = `╭═─═─═─═─═─═─═╮
 ║     𝚃𝙷𝙴 𝙼𝚈𝚂𝚃𝙸𝙲 - 𝙱𝙾𝚃 - 𝙼𝙳
 ║╰═─═─═─═─═─══╯
