@@ -413,12 +413,15 @@ let texto1 = `╭═─═─═─═─═─═─═╮
 ⠀⠀║° ඬ⃟👽 _${usedPrefix}s *<responder a imagen o video>*_
 ⠀⠀║° ඬ⃟👽 _${usedPrefix}s *<enlace / link / url>*_
 ⠀⠀║° ඬ⃟👽 _${usedPrefix}emojimix *<emoji 1>&<emoji 2>*_
+⠀⠀║° ඬ⃟👽 _${usedPrefix}emojimix2 *<emoji>*_
 ⠀⠀║° ඬ⃟👽 _${usedPrefix}semoji *<tipo> <emoji>*_
 ⠀⠀║° ඬ⃟👽 _${usedPrefix}attp *<texto>*_
 ⠀⠀║° ඬ⃟👽 _${usedPrefix}ttp *<texto>*_
 ⠀⠀║° ඬ⃟👽 _${usedPrefix}pat *<@tag>*_
 ⠀⠀║° ඬ⃟👽 _${usedPrefix}slap *<@tag>_
 ⠀⠀║° ඬ⃟👽 _${usedPrefix}kiss *<@tag>*_
+⠀⠀║° ඬ⃟👽 _${usedPrefix}guiño *<@tag>*_
+⠀⠀║° ඬ⃟👽 _${usedPrefix}abrazo *<@tag>*_
 ⠀⠀║° ඬ⃟👽 _${usedPrefix}dado_
 ⠀⠀║° ඬ⃟👽 _${usedPrefix}wm *<packname> <author>*_
 ⠀⠀║° ඬ⃟👽 _${usedPrefix}stickermarker *<efecto> <responder a imagen>*_
