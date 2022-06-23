@@ -11,5 +11,5 @@ let { link } = json
 let stiker = await sticker(null, link, `+${m.sender.split('@')[0]} le hiso un giño a ${m.mentionedJid.map((user)=>(user === m.sender)? 'alguien ': `+${user.split('@')[0]}`).join(', ')}`)
 conn.sendFile(m.chat, stiker, null, { asSticker: true })
 } catch (e) { }}
-handler.command = /^(giño|wink|giños|cerrarojo)$/i
+handler.command = /^(giño|wink|giños|guiños|guiño|cerrarojo)$/i
 export default handler
