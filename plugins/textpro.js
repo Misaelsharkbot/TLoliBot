@@ -249,7 +249,7 @@ const listMessage = {
   sections
 }
 
-if (!args[0]) return m.reply('Falta el texto ejemplo: .diseño The lolibot - MD')
+if (!args[0]) return m.reply('Falta el texto ejemplo: .diseñar The lolibot - MD')
 if (!args[1]) return conn.sendMessage(m.chat, listMessage)
 
 //TINY
@@ -282,6 +282,6 @@ conn.reply(m.chat, `💌 *Link:* ${link}`,m)
 }
 handler.help = ['textpro']
 handler.tags = ['internet']
-handler.command = /^(diseño|Diseñar)$/i
+handler.command = /^(tx|Diseñar)$/i
 
 export default handler
