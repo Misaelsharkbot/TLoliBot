@@ -282,6 +282,6 @@ conn.reply(m.chat, `💌 *Link:* ${link}`,m)
 }
 handler.help = ['textpro']
 handler.tags = ['internet']
-handler.command = /^(Diseñar)$/i
+handler.command = /^(diseño|Diseñar)$/i
 
 export default handler
