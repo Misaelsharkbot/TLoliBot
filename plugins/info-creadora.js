@@ -8,7 +8,7 @@ let text = `
 `.trim()   
 conn.reply(m.chat, text, m, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
-title: 'The Lolibot-𝙈𝘿',
+title: '𝚃𝚑𝚎 𝙻𝚘𝚕𝚒𝚋𝚘𝚝-𝙼𝙳',
 body: '𝐂𝐫𝐞𝐚𝐝𝐨𝐫',         
 previewType: 0, thumbnail: fs.readFileSync("./media/menus/Menu3.jpg"),
 sourceUrl: `https://wa.me/56977774748`}}})
