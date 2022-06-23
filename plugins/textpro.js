@@ -9,6 +9,7 @@ const sections = [
    {
 	title: "TIPOS DE logos",
 	rows: [
+	    {title: ".textpro a-summer", rowId: ".textpro a-3d-orange-juice " + args[0] + ""},
 	    {title: ".textpro a-summer", rowId: ".textpro a-summer " + args[0] + ""},
 	    {title: ".textpro realistic-golden", rowId: ".textpro realistic-golden " + args[0] + ""},
 	    {title: ".textpro neon-light-blackpink-logo", rowId: ".textpro neon-light-blackpink-logo " + args[0] + ""},
