@@ -102,8 +102,17 @@ let menu = `
 ┃🔍➺ _${usedPrefix}letra | lirik *texto*_
 ┃🔍➺ _${usedPrefix}ytsearch | yts *texto*_
 ┃🔍➺ _${usedPrefix}wiki | wikipedia *texto*_
+┃🔍➺ _${usedPrefix}apkdone *texto*_
+┃🔍➺ _${usedPrefix}apkgoogle *texto*_
+┃🔍➺ _${usedPrefix}apkmody *texto*_
+┃🔍➺ _${usedPrefix}apkshub *texto*_
+┃🔍➺ _${usedPrefix}happymod *texto*_
+┃🔍➺ _${usedPrefix}hostapk *texto*_
+┃🔍➺ _${usedPrefix}revdl *<texto>*_
+┃🔍➺ _${usedPrefix}toraccino *<texto>*_
+┃🔍➺ _${usedPrefix}uapkpro *<texto>*_
 ╰━━━━━━━━━━━━━━━━━━━⬣`.trim()
-conn.sendHydrated(m.chat, menu, wm, pp, 'https://github.com/elrebelde21/The-LoliBot-MD', 'THE LOLIBOT-𝙈𝘿', null, null, [
+conn.sendHydrated(m.chat, menu, wm, pp, 'https://github.com/elrebelde21/The-LoliBot-MD', '𝚃𝚑𝚎 𝚕𝚘𝚕𝚒𝚋𝚘𝚝-𝙼𝙳', null, null, [
 ['𝙈𝙚𝙣𝙪́ 𝙘𝙤𝙢𝙥𝙡𝙚𝙩𝙤 💫', '.allmenu'],
 ['𝙈𝙚𝙣𝙪 𝙙𝙚𝙨𝙥𝙡𝙚𝙜𝙖𝙗𝙡𝙚 🌟', '/menulista'],
 ['𝙈𝙚𝙣𝙪 𝙋𝙧𝙞𝙣𝙘𝙞𝙥𝙖𝙡 ⚡', '#menu']
