@@ -24,6 +24,10 @@ import fetch from 'node-fetch'
 import cheerio from 'cheerio'
 var effects = [
     {
+    "title": "a-3d-orange-juice",
+    "url": "https://textpro.me/create-a-3d-orange-juice-text-effect-online-1084.html"
+    }, 
+    {
     "title": "a-summer",
     "url": "https://textpro.me/create-a-summer-text-effect-with-a-palm-tree-1083.html"
     },   
