@@ -4,11 +4,8 @@ import { fileURLToPath } from 'url'
 
 //⊱ ━━━━━.⋅ Añada los numeros a ser Propietario/a | Add the numbers to be Owner ⋅.━━━━ ⊰
 global.owner = [
-  ['56977774748', 'creador', true],
-  ['447441419651'],
-  ['240222921821'],
-  ['50495745934'],
-  ['56950377550']
+  ['51977783315', 'creador', true],
+  ['51935116539']
 ]
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
@@ -72,7 +69,7 @@ global.APIKeys = { // APIKey Here
 //⊱ ━━━━━.⋅ Sticker WM ⋅.━━━━ ⊰
 
 global.packname = 'toma tu sticker'
-global.author = 'The Lolibot-MD'
+global.author = '𝚃𝚑𝚎 𝙻𝚘𝚕𝚒𝚋𝚘𝚝-𝙼𝙳'
 
 //━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
@@ -82,7 +79,7 @@ global.author = 'The Lolibot-MD'
 global.vs = '1.1.5'
 global.version = vs
 
-global.gt = 'The LoliBot-MD'
+global.gt = '𝚃𝚑𝚎 𝙻𝚘𝚕𝚒𝚋𝚘𝚝-𝙼𝙳'
 global.gatabot = gt
 
 global.yt = 'https://youtube.com/channel/UC9b3UIVnVb5eQt7_Y-Qz-3A'
