@@ -202,7 +202,7 @@ let pp = './Menu2.jpg'
 ┃➫🔊 _Las reglas del grupo_
 ╰━━━━━━〔 *𓃠 ${vs}* 〕━━━━━━⬣
 `.trim()
-await conn.sendHydrated(m.chat, str, wm, pp, md, 'The Lolibot-MD', null, null, [
+await conn.sendHydrated(m.chat, str, wm, pp, md, '𝚃𝚑𝚎 𝚕𝚘𝚕𝚒𝚋𝚘𝚝-𝙼𝙳', null, null, [
 ['𝙈𝙚𝙣𝙪́ 𝙘𝙤𝙢𝙥𝙡𝙚𝙩𝙤 💫', '.allmenu'],
 ['𝙈𝙚𝙣𝙪 𝙙𝙚𝙨𝙥𝙡𝙚𝙜𝙖𝙗𝙡𝙚 🌟', '/menulista'],
 ['𝙈𝙚𝙣𝙪 𝙋𝙧𝙞𝙣𝙘𝙞𝙥𝙖𝙡 ⚡', '#menu']
