@@ -480,7 +480,7 @@ conn.sendMessage(m.chat, buttonMessage, fake)
 }
 handler.help = ['menu', 'help', '?']
 handler.tags = ['main']
-handler.command = /^(allmenú|allmemu|allmemú|allcomandos|allmenu|2help|menu1.2|ayuda|commands|m|\?)$/i
+handler.command = /^(menucompleto|allmenu|allm\?)$/i
 export default handler
 
 const more = String.fromCharCode(8206)
