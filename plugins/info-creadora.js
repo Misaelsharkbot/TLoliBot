@@ -19,7 +19,7 @@ sourceUrl: `https://wa.me/56977774748`}}})
 let pp = './media/menus/Menu2.jpg'
 let str = `🧡 *Eso son los contactos para ti.*`
 
-conn.sendHydrated(m.chat, str, wm, pp, 'https://chat.whatsapp.com/Lus9S60MABnH9lF4Wf2T7k', 'grupos', null, null, [
+conn.sendHydrated(m.chat, str, wm, pp, 'https://chat.whatsapp.com/Lus9S60MABnH9lF4Wf2T7k', '𝙶𝚁𝚄𝙿𝙾', null, null, [
 ['🐈 𝙄𝙣𝙛𝙤𝙧𝙢𝙖𝙘𝙞ó𝙣', '.infobot'],
 ['🎁 𝘿𝙤𝙣𝙖𝙧', '.donar'],
 ['☘ 𝙄𝙧 𝙖𝙡 𝙞𝙣𝙞𝙘𝙞𝙤', '/menu']
