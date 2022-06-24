@@ -1,6 +1,6 @@
 let handler = async (m, { conn, isPrems}) => { //lastmiming
 let minar = `${pickRandom(['Que pro 😎 has minado','🌟✨ Genial!! Obtienes','WOW!! eres un(a) gran Minero(a) ⛏️ Obtienes','Felicidades!! Ahora tienes','⛏️⛏️⛏️ Obtienes'])}`
-let pp = 'https://media.tvalacarta.info/programas/0/clantve/44-gatos/aida-la-gata-robot.jpg'
+let pp = 'https://telegra.ph/file/767cf1ea6de3f52d91e22.png'
 
 let gata = Math.floor(Math.random() * 1000)
 global.db.data.users[m.sender].money += gata * 1  
@@ -8,7 +8,7 @@ global.db.data.users[m.sender].money += gata * 1
 let time = global.db.data.users[m.sender].lastcoins + 600000
 if (new Date - global.db.data.users[m.sender].lastcoins < 600000) throw `*💟 Vuelva en ${msToTime(time - new Date())} para continuar minando ⛏️*`  
 
-conn.sendHydrated(m.chat, `*${minar} ${gata} loli𝘾𝙤𝙞𝙣𝙨*`, wm, pp, md, 'The Lolibot-𝙈𝘿', null, null, [
+conn.sendHydrated(m.chat, `*${minar} ${gata} loli𝘾𝙤𝙞𝙣𝙨*`, wm, pp, md, '𝚃𝚑𝚎 𝙻𝚘𝚕𝚒𝚋𝚘𝚝-𝙼𝙳', null, null, [
 ['𝙈𝙞𝙣𝙖𝙧 𝙀𝙓𝙋 ⚡', `.minar`],
 ['𝙈𝙞𝙣𝙖𝙧 𝘿𝙞𝙖𝙢𝙖𝙣𝙩𝙚𝙨 💎', `.minar3`],
 ['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ ☘️', `.menu`]
