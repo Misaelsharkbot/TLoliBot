@@ -459,7 +459,7 @@ jpegThumbnail: imagen1,
 caption: texto1,
 fileLength: "99999999999999",
 mentions:[m.sender, owner],
-footer: `𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 𝙱𝚘𝚝`,
+footer: `𝚃𝚑𝚎 𝙻𝚘𝚕𝚒 𝙱𝚘𝚝`,
 buttons: buttons,
 headerType: 4,
     
@@ -471,7 +471,7 @@ contextInfo: {
 "mediaType": 2, 
 "previewType": "VIDEO",
 "thumbnail": imagen3,
-"mediaUrl": 'https://youtu.be/eC9TfKICpcY',
+"mediaUrl": 'https://youtu.be/8Tml7lGcV-w',
 "sourceUrl": 'https://www.pornhub.com'
 }}} 
 
