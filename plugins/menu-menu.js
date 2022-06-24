@@ -449,7 +449,7 @@ var document = doc[Math.floor(Math.random() * doc.length)]
 const buttons = [
 {buttonId: `#donar`, buttonText: {displayText: '📮 𝙳𝙾𝙽𝙰𝚁 📮'}, type: 1},
 {buttonId: `#menuaudios`, buttonText: {displayText: '🔊 𝙼𝙴𝙽𝚄 𝙰𝚄𝙳𝙸𝙾𝚂 🔊'}, type: 1},
-{buttonId: `#menucompleto`, buttonText: {displayText: '🌐 𝙼𝙴𝙽𝚄 𝙶𝚁𝚄𝙿𝙾 🌐'}, type: 1},
+{buttonId: `#menucompleto`, buttonText: {displayText: '💟 𝙼𝙴𝙽𝚄 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙾 💟'}, type: 1},
 ]
 let buttonMessage = {
 document: imagen1, 
@@ -459,7 +459,7 @@ jpegThumbnail: imagen1,
 caption: texto1,
 fileLength: "99999999999999",
 mentions:[m.sender, owner],
-footer: `𝚃𝚑𝚎 𝙻𝚘𝚕𝚒 𝙱𝚘𝚝`,
+footer: `𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 𝙱𝚘𝚝`,
 buttons: buttons,
 headerType: 4,
     
@@ -471,7 +471,7 @@ contextInfo: {
 "mediaType": 2, 
 "previewType": "VIDEO",
 "thumbnail": imagen3,
-"mediaUrl": 'https://youtu.be/8Tml7lGcV-w',
+"mediaUrl": 'https://youtu.be/eC9TfKICpcY',
 "sourceUrl": 'https://www.pornhub.com'
 }}} 
 
@@ -480,7 +480,7 @@ conn.sendMessage(m.chat, buttonMessage, fake)
 }
 handler.help = ['menu', 'help', '?']
 handler.tags = ['main']
-handler.command = /^(menucompleto|allmenu|allm\?)$/i
+handler.command = /^(menu|menú|memu|memú|help|info|comandos|allmenu|2help|menu1.2|ayuda|commands|commandos|m|\?)$/i
 export default handler
 
 const more = String.fromCharCode(8206)
