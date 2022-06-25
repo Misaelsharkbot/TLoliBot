@@ -6,7 +6,6 @@ import fs from 'fs'
 let handler = async (m, { text, conn, args, command, usedPrefix }) => {
 if (!text) throw `*[❗𝐈𝐍𝐅𝐎❗] 𝙽𝙾𝙼𝙱𝚁𝙴 𝙳𝙴 𝙻𝙰 𝙲𝙰𝙽𝙲𝙸𝙾𝙽 𝙵𝙰𝙻𝚃𝙰𝙽𝚃𝙴, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙼𝙰𝚂 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴/𝚃𝙸𝚃𝚄𝙻𝙾 𝙳𝙴 𝚄𝙽𝙰 𝙲𝙰𝙽𝙲𝙸𝙾𝙽*\n\n*—◉ 𝙴𝙹𝙴𝙼𝙿𝙻𝙾:*\n*${usedPrefix + command} Begin you*`    
 try {
-let imagen1 = fs.readFileSync('./src/anya.jpg') 
 let search = await yts(args.join(" "))
 let listSerch = []
 let teskd = `𝙼𝚞́𝚜𝚒𝚌𝚊 𝚛𝚎𝚕𝚊𝚌𝚒𝚘𝚗𝚊𝚍𝚊 𝚌𝚘𝚗: ${args.join(" ")}`
